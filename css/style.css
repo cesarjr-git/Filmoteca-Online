@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.filme {
+    background-color: #fff;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    display: flex;
+}
+
+.capa-filme {
+    width: 150px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.informacoes-filme {
+    flex: 1;
+}
+
+.informacoes-filme h2 {
+    margin-bottom: 0.5rem;
+}
+
+.informacoes-filme p {
+    margin: 0.2rem 0;
+}
+
+.informacoes-filme a {
+    display: block;
+    margin-top: 1rem;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.informacoes-filme a:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.3rem 0; /* Diminuí a altura do rodapé ajustando o valor do padding */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
